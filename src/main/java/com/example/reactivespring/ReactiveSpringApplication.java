@@ -13,16 +13,9 @@ public class ReactiveSpringApplication {
 }
 
 /*
-    Mongo Repository + test class - findAll
-    TODO 1 dodajemy zaleznosci:
-        data mongo db
-        lombok
-        de.flapdoodle.embed.mongo
+    Part 2 : Mongo Rest Repository + test class(cRud), embeddedDB
+    TODO 1 reactive repo
 
-    TODO 2 @Document Person
-
-    TODO 3 mongo repository
-
-    TODO 4 Junit5 tests
+    TODO 3 JUnit5 CRUD
  */
 
