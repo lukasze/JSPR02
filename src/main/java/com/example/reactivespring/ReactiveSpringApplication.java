@@ -11,3 +11,15 @@ public class ReactiveSpringApplication {
     }
 
 }
+
+/*
+    TODO 1 dodajemy zaleznosci  - reactive web / testy
+ */
+
+/*
+    TODO 2 w paczce testowej playground.FLuxAndMonoTest
+ */
+
+/*
+    TODO 3 przyklady wykorzystania API (Flux / Mono, Testy)
+ */
