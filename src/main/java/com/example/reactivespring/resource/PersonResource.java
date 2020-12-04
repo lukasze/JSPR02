@@ -2,6 +2,7 @@ package com.example.reactivespring.resource;
 
 import com.example.reactivespring.model.Person;
 import com.example.reactivespring.repository.PersonReactiveRepository;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
@@ -16,7 +17,7 @@ public class PersonResource {
         this.personReactiveRepository = personReactiveRepository;
     }
 
-    @GetMapping(PEOPLE)
+    @GetMapping(value = PEOPLE)
     Flux<Person> getAll(){
         return personReactiveRepository.findAll();
     }
