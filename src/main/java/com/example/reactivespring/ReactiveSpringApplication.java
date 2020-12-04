@@ -13,9 +13,17 @@ public class ReactiveSpringApplication {
 }
 
 /*
-    Part 2 : Mongo Rest Repository + test class(cRud), embeddedDB
-    TODO 1 reactive repo
 
-    TODO 3 JUnit5 CRUD
+    TODO 1 dependency (reactive web)
+
+    TODO 2 controller zwracajacy Flux<Person>
+
+    TODO 3 uzyj embededMongo dla wystartowanej aplikacji (wykomentuj scope z zaleznosci)
+
+    TODO 4   Przetestuj w przegladarce
+
+    TODO 5 Zainicjalizuj z CommandLineRunner
+
+    TODO 6 Co trzeba zrobic, zeby webflux zwrocil strumien?
  */
 
