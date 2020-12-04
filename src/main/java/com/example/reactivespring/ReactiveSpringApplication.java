@@ -13,17 +13,10 @@ public class ReactiveSpringApplication {
 }
 
 /*
+    WebFlux - functional style
 
-    TODO 1 dependency (reactive web)
+    TODO 1 PersonRouter + PersonHandler + test (getAll)
 
-    TODO 2 controller zwracajacy Flux<Person>
-
-    TODO 3 uzyj embededMongo dla wystartowanej aplikacji (wykomentuj scope z zaleznosci)
-
-    TODO 4   Przetestuj w przegladarce
-
-    TODO 5 Zainicjalizuj z CommandLineRunner
-
-    TODO 6 Co trzeba zrobic, zeby webflux zwrocil strumien?
+    TODO 2 Metody getOneItem, create + testy
  */
 
